@@ -1,4 +1,3 @@
-# This is just text for git pull
 '''This code concerns https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem'''
 # def __repr__(arr):
 #     return str(arr)
