@@ -4,7 +4,7 @@ student_marks = {}
 total = 0
 count = 0
 for _ in range(n):
-    name, *line = input().split()
+    name, *line = input().split() # the most important line
     scores = list(map(float, line))
     student_marks[name] = scores
 query_name = input()
