@@ -30,8 +30,27 @@ sub = input()
 # print(len(sub))
 
 '''Trying to split a string'''
-l = list()
+# count = 0
+# l = list()
+# for i in range(0, len(s)):
+#     l.append(s[i])
+#     if sub in l:
+#         count = count + 1
+#     print(count)
+'''Simple program for a single letter sub_string'''
+# count = 0
+# for i in s:
+#     if i in sub:
+#         count = count+1 
+#         print (count)
+'''Splitting the string into sub-string length'''
+l= []
+l.append(sub)
 for i in range(0, len(s)):
-    l.append(i)
-print(l) 
-# To-do from here (maybe try to convert integers to string and contemplate whether it is the right path to take for solving this question.)
+    print(l)
+    # if l in s:
+
+
+
+
+
