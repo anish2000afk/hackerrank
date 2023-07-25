@@ -16,6 +16,3 @@ def oct_converter(n):
     )  # This lines joins the integers in one single integer object.
     # it is possible that .join only works with string.
     print(num)
-
-
-oct_converter(100)
