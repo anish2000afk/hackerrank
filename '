@@ -1,3 +1,5 @@
+"""Adding a list of lists in from string2 """
+
 """The main file"""
 
 N = int(input())
@@ -6,9 +8,10 @@ Row_val = N - 1  # The number of rows
 thickness = (N * 2) - 2  # The thickness of one side
 lis = list()
 # for i in range(N):# Why did this now work
-for i in range(N - 1, 0, -1):  # This works fine
-    for n in range(0, N - 1, i):  # To-do continue from here
-        print(n)
+for i in range(0, N - 1, 1):  # Number of Groups.
+    # for i in range(0, N - 1, 1):
+    for n in range(0, i, 1):
         ele = chr(ASC - n)  #
         lis.append(ele)
-    print(lis)
+    list1 = [lis]
+    print(list1)
