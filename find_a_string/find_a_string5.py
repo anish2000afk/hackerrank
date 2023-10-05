@@ -1,4 +1,4 @@
-# !! The program automatically takes the range of the string.
+#'chrome://vivaldi-webui/startpage?section=Speed-dials&background-color=#384d67'  !! The program automatically takes the range of the string.
 # string = "ABCDAB"
 # sub = "AB"
 # count = int()
@@ -34,8 +34,7 @@
 
 # !! Using the find method.
 ele = "CDC"
-str = "ABCDCDC"
+str = "ABCDCDCDC"
 for i in range(len(str)):
     x = str.find(ele)
-print(x)
-
+    print(x)
