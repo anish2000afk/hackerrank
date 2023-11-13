@@ -14,6 +14,7 @@ https://www.simplilearn.com/tutorials/python-tutorial/map-in-python#:~:text=Map%
 
 """For converting a list of any type to another type
 https://www.geeksforgeeks.org/python-converting-all-strings-in-list-to-integers/"""
+
 n = int(input())
 arr = input()
 A = arr.split(" ")
